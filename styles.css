@@ -1,0 +1,112 @@
+/** remove dots and default padding/margin */
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* remove underline */
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+}
+button
+{
+    background: #3882f6;
+    color: #f9faf8;
+    padding: 4px;
+    width: 70px;
+}
+.header, .footer
+{
+    background: #1f2937;
+}
+.header
+{
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo
+{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links
+{
+    display: flex;
+    gap: 24px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.top
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: #1f2937;
+    padding: 48px;
+    gap: 32px;
+}
+.header-main
+{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+a,
+.header-text
+{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 8px;
+}
+
+.rightsideimg
+{
+    background: gray;
+    color: white;
+    height: 20%;
+    width: 20%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.midHeader{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    
+}
+.infoImg{
+    border: 3px solid blue;
+    height: 100px;
+    width: 100px;
+}
