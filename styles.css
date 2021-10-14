@@ -17,6 +17,7 @@ button
     color: #f9faf8;
     padding: 4px;
     width: 70px;
+    border-radius: 5px;
 }
 .header, .footer
 {
@@ -97,16 +98,56 @@ a,
     flex-direction: column;
     margin: 8px;
 }
-.quote{
+.quoteSec{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #e5e7eb;
-    
+    padding: 50px;
+}
+#quoteAuthor{
+    margin-left: 45%;
+    font-weight: bold;
+}
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 .infoImg{
     border: 3px solid blue;
     height: 100px;
     width: 100px;
+}
+
+.signup{
+    margin: auto;
+    padding: 24px;
+    width: 75%;
+}
+.callToAction{
+    background: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    padding: 20px;
+}
+#callHeader{
+    margin-bottom: -15px;
+    color: white;
+    font-weight: bold;
+}
+#callInfo{
+    color: #e5e7eb;
+}
+#callSignUp{
+    border-color: white;
+    width: 8%;
+}
+.footer{
+    padding: 7px;
+    color: white;
+    text-align: center;
 }
